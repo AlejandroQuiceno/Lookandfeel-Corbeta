@@ -93,6 +93,9 @@
     width: 80px;
   }
   @media (max-width: 768px) {
+    body{
+      zoom: 30%;
+    }
     .left-header{
       display: none;
       width: 0px;
@@ -111,6 +114,9 @@
   }
 
   @media (min-width: 769px) and (max-width: 1024px) {
+    body{
+      zoom: 70%;
+    }
     .left-header{
       display: none;
       width: 0px;
