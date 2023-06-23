@@ -115,7 +115,7 @@
 
   @media (min-width: 769px) and (max-width: 1024px) {
     body{
-      zoom: 70%;
+      zoom: 30%;
     }
     .left-header{
       display: none;
