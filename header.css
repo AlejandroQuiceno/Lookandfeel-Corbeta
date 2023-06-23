@@ -94,7 +94,7 @@
   }
   @media (max-width: 768px) {
     body{
-      zoom: 20%;
+      zoom: 70%;
     }
     .left-header{
       display: none;
@@ -122,13 +122,13 @@
       width: 0px;
     }
     .flechas-container{
-      height: 1000px;
+      height: 100vh;
     }
     .ruta{
-      height: 80%;
+      height: 80vh;
     }
     .header{
-      height: 1305px;
+      height: 100vh;
     }
   }
 
