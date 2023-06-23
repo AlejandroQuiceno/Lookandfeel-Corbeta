@@ -2,15 +2,16 @@
     background: url(https://fauna.digital/akt/Fondo.png);
     min-width: 1200px;
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
+    padding-top: 100px;
   }
   .header-container{
     width: 1200px;
     max-width: 2000px;
     height: 700px;
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
   }
   .left-header{
@@ -23,7 +24,7 @@
     min-width: 0px;
     position: absolute;
     left: -100px;
-    bottom: -380px;
+    bottom: 0;
   }
   .linea-azul{
     max-width: 700px;
@@ -92,13 +93,9 @@
   .rueda{
     width: 80px;
   }
-  @media (max-width: 768px) {
+  @media (min-width: 0px) and (max-width: 768px){
     body{
       zoom: 70%;
-    }
-    .left-header{
-      display: none;
-      width: 0px;
     }
     .flechas-container{
       height: 2000px;
@@ -108,8 +105,10 @@
       height: 80%;
 
     }
-    .header{
-      height: 1305px;
+    .header-container{
+    max-height: 3000px;
+    flex-direction: column;
+    background-color: lightgreen;
     }
   }
 
@@ -123,11 +122,13 @@
     }
     .flechas-container{
       height: 100vh;
+      max-height: 1000px;
     }
     .ruta{
       height: 80vh;
+      max-height: 2000px;
     }
-    .header{
+    .header-container{
       height: 100vh;
     }
   }
