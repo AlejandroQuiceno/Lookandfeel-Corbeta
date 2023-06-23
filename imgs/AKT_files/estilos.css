@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+h2 {
+    font-family: 'Archivo Black', sans-serif;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+body {
+    background: url(https://fauna.digital/akt/bg-body.png);
+    color: #064068;
+}
+
+#carrusel {
+    float: left;
+    width: 800px;
+    overflow: hidden;
+    height: 203px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+ 
+a.right-arrow {
+    position: absolute;
+    right: 0;
+    top: 40%;
+}
+a.left-arrow {
+    position: absolute;
+    left: 0;
+    top: 40%;
+}
+a.left-arrow img {
+    max-width: 50px;
+}
+a.right-arrow img {
+    max-width: 50px;
+}
+ 
+.carrusel {
+    width:4000px;
+    left:0px;
+    position:absolute;
+    z-index:0;
+}
+ 
+.carrusel>div {
+    float: left;
+    height: 203px;
+    margin-right: 5px;
+    width: 195px;
+    text-align:center;
+}
+ 
+.carrusel img {
+    cursor:pointer;
+}
+ 
+.product {
+    border:#CCCCCC 1px solid;
+}
+a.botones {
+    background: #064068;
+    color: #fff;
+    padding: 1em;
+    margin-left: 5em;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 3px solid rgba(0,0,0,.1);
+}
+.header {
+    background: url(https://fauna.digital/akt/Fondo.png);
+}
+img.flecha {
+    width: 100%;
+}
+.header_interno {
+    max-width: 1200px;
+    margin: 0 auto;
+        position: relative;
+}
+img.logo {
+    width: 100%;
+    max-width: 120px;
+    position: absolute;
+    right: 5%;
+    top: 30px;
+}
+.contenedor_flecha {
+    max-width: 600px;
+    padding-top: 10%;
+    margin: 0px 100px 0 auto;
+    padding-bottom: 5%;
+        font-size: 16px;
+    font-weight: 100;
+        position: relative;
+}
+.contenedor_flecha {
+    max-width: 600px;
+    padding-top: 10%;
+    margin: 0px 100px 0 auto;
+    padding-bottom: 5%;
+        font-size: 16px;
+    font-weight: 100;
+        position: relative;
+}
+img.bola {
+    max-width: 80px;
+}
+div#bolita_1 {
+    position: absolute;
+    top: 40px;
+    right: 200px;
+}
+div#bolita_2 {
+    position: absolute;
+    top: 220px;
+    left: -60px;
+}
+div#bolita_3 {
+    position: absolute;
+    top: 240px;
+    right: 200px;
+}
+div#bolita_4 {
+    position: absolute;
+top: 450px;
+    left: -90px;
+}
+div#bolita_5 {
+    position: absolute;
+    top: 400px;
+    right: 260px;
+}
+div#bolita_6 {
+    position: absolute;
+    top: 300px;
+    right: -100px;
+}
+.contenedor_flecha p {
+    color: #fff;
+    display: inline-block;
+    line-height: 1.2;
+}
+div#bolita_1 p {
+    max-width: 80px;
+}
+div#bolita_2 p {
+    max-width: 80px;
+}
+div#bolita_3 p {
+    max-width: 100px;
+}
+div#bolita_4 p {
+    max-width: 80px;
+}
+div#bolita_5 p {
+    max-width: 80px;
+}
+div#bolita_6 p {
+    max-width: 80px;
+}
+img.linea {
+       position: absolute;
+    max-width: 700px;
+    left: -180px;
+    top: 100px;
+}
+img.moto {
+    position: absolute;
+        max-width: 500px;
+        left: -80px;
+    top: 230px;
+}
+.col-sm-9.flecha2 {
+    position: relative;
+}
+div#globo_1 a, div#globo_2 a, div#globo_3 a, div#globo_4 a, div#globo_5 a, div#globo_6 a, div#globo_7 a, div#globo_8 a {
+    color: #064068;
+    font-size: 14px;
+    font-weight: 300;
+}
+div#globo_1 {
+    position: absolute;
+    top: 50px;
+    max-width: 90px;
+    line-height: 1.1;
+    left: 20px;
+}
+
+div#globo_2 {
+    position: absolute;
+    top: 90px;
+    max-width: 90px;
+    line-height: 1.1;
+    left: 150px;
+}
+div#globo_3 {
+    position: absolute;
+    top: 230px;
+    max-width: 90px;
+    line-height: 1.1;
+    left: 80px;
+}
+div#globo_4 {
+    position: absolute;
+    top: 10px;
+    max-width: 90px;
+    line-height: 1.1;
+    left: 260px;
+}
+div#globo_5 {
+    position: absolute;
+    top: 130px;
+    max-width: 90px;
+    line-height: 1.1;
+    left: 460px;
+}
+div#globo_6 {
+    position: absolute;
+    top: 310px;
+    max-width: 90px;
+    line-height: 1.1;
+    left: 590px;
+}
+div#globo_7 {
+    position: absolute;
+    top: 10px;
+    max-width: 90px;
+    line-height: 1.1;
+    left: 510px;
+}
+div#globo_8 {
+        position: absolute;
+    top: 70px;
+    max-width: 90px;
+    line-height: 1.1;
+    right: 80px;
+}
+img.llave {
+       position: absolute;
+    max-width: 120px;
+    right: 0px;
+    bottom: 0;
+}

@@ -1,0 +1,17 @@
+    h2{
+        font-family: open sans;
+        font-weight: bold;
+        font-size: 25px;
+        color: #064068;
+    }
+    a{
+    text-decoration: none;
+  }
+  p{
+    font-family: open sans;
+  }
+  body{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }

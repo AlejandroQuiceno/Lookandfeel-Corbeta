@@ -1,0 +1,135 @@
+  .header{
+    background: url(https://fauna.digital/akt/Fondo.png);
+    min-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-container{
+    width: 1200px;
+    max-width: 2000px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .left-header{
+    width: 500px;
+    position: relative;
+  }
+  .moto{
+
+    max-width: 500px;
+    min-width: 0px;
+    position: absolute;
+    left: -100px;
+    bottom: -380px;
+  }
+  .linea-azul{
+    max-width: 700px;
+    left: -180px;
+    top: -200px;
+    position: absolute;
+  }
+  .right-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .llave{
+    max-width: 120px;
+    margin-bottom: 10px;
+  }
+  .logo{
+    max-width: 120px;
+    margin-top: 20px;
+  }
+
+  .flechas-container{
+    margin-top: 60px;
+    width: 800px;
+    position: relative;
+  }
+  .ruta{
+    width: 80%;
+    min-width: 600px;
+
+  }
+  .flecha1,.flecha2,.flecha3,.flecha4{
+    display: flex;
+    flex-direction: row;
+    align-items:top;
+    justify-content: top;
+    position: absolute;
+
+  }
+  .flecha1{
+    top: -80px;
+    left: 250px;
+  }
+  .flecha2{
+    top: 100px;
+    left: -60px;
+  }
+  .flecha3{
+    top: 100px;
+    right: 300px;
+  }
+  .flecha4{
+    top: 160px;
+    right: 30px;
+  }
+  .p-flecha{
+    color: white;
+    width: 80px;
+  }
+  .link-flecha{
+    cursor:pointer;
+    text-decoration:none;
+
+  }
+  .rueda{
+    width: 80px;
+  }
+  @media (max-width: 768px) {
+    .left-header{
+      display: none;
+      width: 0px;
+    }
+    .flechas-container{
+      height: 2000px;
+      
+    }
+    .ruta{
+      height: 80%;
+
+    }
+    .header{
+      height: 1305px;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .left-header{
+      display: none;
+      width: 0px;
+    }
+    .flechas-container{
+      height: 1000px;
+    }
+    .ruta{
+      height: 80%;
+    }
+    .header{
+      height: 1305px;
+    }
+  }
+
+  @media (min-width: 1025px) {
+
+  }
+
+  @media (min-width: 1441px) {
+
+  }

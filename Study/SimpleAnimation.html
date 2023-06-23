@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* utility classes*/
+            .animate{
+                animation: slideInleft 1s ease-in;
+            }
+            .animate.animate--slow{
+                animation-duration: 3s;
+            }
+            /* utility classes*/
+
+            @keyframes slideInleft{
+                from{
+                    transform: translateX(-300px);
+
+                }
+                to{
+                    transform: translateX(0px);
+                }
+            }
+            .container{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="heading animate animate--slow">
+                Hello, World!
+            </h1>
+        </div>
+
+    </body>
+</html>
