@@ -106,8 +106,17 @@
   .rueda{
     width: 80px;
   }
-  @media (max-width: 500px){
-
+  @media (max-width: 700px){
+    body{
+      zoom: 50%;
+    }
+    .ruta{
+      width: 400px;
+    }
+    .header-container{
+      align-items: top;
+      justify-content: left;  
+    }
   }
 
   @media  (max-width: 1024px) {
@@ -121,22 +130,27 @@
     .flechas-container{
       display: flex;
       align-items: top;
-      justify-content: center;
-      width: 100%;
-      margin: 0px;
+      justify-content: left;
+      width: 750px;
       height: 800px;
+      min-width: 0px;
+      margin: 0px;
     }
     .ruta{
+      margin-top: 30px;
       height: 100%;
       object-fit:scale-down;
+      min-width: 0px;
+      object-position:top;
     }
     .header{
       padding-top: 60px;
     }
     .header-container{
-      height: 100vh;
       align-items: top;
-      justify-content: center;
+      justify-content: left;
+      margin-left: 80px;
+      margin-top: -70px;
     }
     .right-header{
       display: none;
