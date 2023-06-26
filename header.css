@@ -107,16 +107,10 @@
   .rueda{
     width: 80px;
   }
-  @media (min-width: 0px) and (max-width: 768px){
+  @media (max-width: 768px){
     body{
       zoom: 50%;
-    }
-    .flechas-container{
-
-      
-    }
-    .header-container{
-
+      background-color: lightcoral;
     }
   }
 
