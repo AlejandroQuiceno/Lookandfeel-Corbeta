@@ -120,9 +120,6 @@
   }
 
   @media  (max-width: 1024px) {
-    body{
-      zoom: 80%;
-    }
     .left-header{
       display: none;
       width: 0px;
@@ -131,7 +128,7 @@
       display: flex;
       align-items: top;
       justify-content: left;
-      width: 750px;
+      width: 450px;
       height: 800px;
       min-width: 0px;
       margin: 0px;
@@ -139,7 +136,7 @@
     .ruta{
       margin-top: 30px;
       height: 100%;
-      object-fit:scale-down;
+      object-fit: fill;
       min-width: 0px;
       object-position:top;
     }
