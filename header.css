@@ -1,4 +1,5 @@
   body{
+    zoom:85%;
     background: url(https://fauna.digital/akt/Fondo.png);
   }
   .header{
@@ -106,9 +107,9 @@
   .rueda{
     width: 80px;
   }
-  @media (max-width: 700px){
+  @media (max-width: 500px){
     body{
-      zoom: 50%;
+      zoom: 60%;
     }
     .ruta{
       width: 400px;
@@ -135,8 +136,7 @@
     }
     .ruta{
       margin-top: 30px;
-      height: 100%;
-      object-fit: fill;
+      height: 65%;
       min-width: 0px;
       object-position:top;
     }
