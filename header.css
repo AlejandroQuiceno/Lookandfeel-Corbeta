@@ -121,6 +121,9 @@
   }
 
   @media  (max-width: 1024px) {
+    body{
+      zoom:80%;
+    }
     .left-header{
       display: none;
       width: 0px;
@@ -150,7 +153,7 @@
       margin-top: -70px;
     }
     .right-header{
-      
+      margin-left: 30px;
     }
   }
 
