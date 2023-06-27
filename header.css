@@ -136,7 +136,7 @@
     }
     .ruta{
       margin-top: 30px;
-      height: 85%;
+      height: 80%;
       min-width: 0px;
       object-position:top;
     }
@@ -150,8 +150,7 @@
       margin-top: -70px;
     }
     .right-header{
-      display: none;
-      width: 0px;
+      
     }
   }
 
