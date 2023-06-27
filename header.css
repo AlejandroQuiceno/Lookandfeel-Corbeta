@@ -109,7 +109,7 @@
   }
   @media (max-width: 500px){
     body{
-      zoom: 35%;
+      zoom: 60%;
     }
     .ruta{
       width: 400px;
