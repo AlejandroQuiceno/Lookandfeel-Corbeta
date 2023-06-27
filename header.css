@@ -127,9 +127,6 @@
   }
 
   @media  (max-width: 1024px) {
-    body{
-      zoom:100%;
-    }
     .left-header{
       display: none;
       width: 0px;
