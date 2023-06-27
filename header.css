@@ -7,7 +7,7 @@
     display: flex;
     align-items: top;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 20px;
   }
   .header-container{
     width: 1200px;
@@ -136,7 +136,7 @@
     }
     .ruta{
       margin-top: 30px;
-      height: 65%;
+      height: 85%;
       min-width: 0px;
       object-position:top;
     }
