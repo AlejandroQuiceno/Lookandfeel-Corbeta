@@ -119,6 +119,10 @@
       align-items: top;
       justify-content: left;  
     }
+    .right-header{
+      display: none;
+      width: 0px;
+    }
   }
 
   @media  (max-width: 1024px) {
