@@ -1,6 +1,7 @@
   body{
     zoom:85%;
-    background: url(https://fauna.digital/akt/Fondo.png);
+    background: url(imgs/fondo.png);
+    background-size: 120%;
   }
   .header{
     min-width: 1200px;
@@ -9,6 +10,7 @@
     justify-content: center;
     padding-top: 20px;
   }
+
   .header-container{
     width: 1200px;
     max-width: 2000px;
@@ -18,30 +20,18 @@
     justify-content: center;
   }
   .left-header{
-    width: 500px;
+    width: 100px;
     position: relative;
   }
-  .moto{
-
-    max-width: 570px;
-    min-width: 0px;
+  .title{
     position: absolute;
-    left: -150px;
-    bottom: 0;
-  }
-  .linea-azul{
-    max-width: 700px;
-    left: -180px;
-    top: -200px;
-    position: absolute;
-  }
-  .linea-azul-back{
-    width: 75vh;
-    max-width: 1000px;
-    top: -100px;
-    left: -400px;
-    position: absolute;
-    z-index: -1;
+    top: 0%;
+    left: -130%;
+    font-family: open sans;
+    width: 300px;
+    font-weight: 700;
+    color: #064068;
+    font-size: 35px;
   }
   .right-header{
     display: flex;
@@ -49,62 +39,89 @@
     justify-content: space-between;
     height: 100%;
   }
-  .llave{
-    max-width: 120px;
-    max-height: 200px;
-    width: 80%;
-    margin-bottom: 120px;
+  .certificados{
+    background-color: #064068;
+    border-radius: 15px;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    cursor: pointer;
+  }
+  .certificados:hover{
+    box-shadow: 0px 0px 10px rgba(1, 1, 1, 0.5);
+  }
+  .certificados:active{
+    opacity: 0.5;
+  }
+  .certificados img{
+    margin-right: 10px;
+    width: 38px;
+  }
+  .certificados p{
+    color: white;
+    font-size: 22px;
   }
   .logo{
-    max-width: 140px;
+    max-width: 200px;
     margin-top: 20px;
     width: 100%;
   }
   .flechas-container{
-    margin-top: 60px;
+    margin-top: 130px;
     width: 800px;
     position: relative;
   }
   .ruta{
     width: 80%;
     min-width: 600px;
-
   }
-  .flecha1,.flecha2,.flecha3,.flecha4{
+  .flecha1,.flecha2,.flecha3,.flecha4,.flecha5{
     display: flex;
     flex-direction: row;
     align-items:top;
-    justify-content: top;
+    justify-content: center;
     position: absolute;
-
   }
   .flecha1{
-    top: -80px;
-    left: 250px;
+    top: -135px;
+    left: 240px;
   }
   .flecha2{
-    top: 100px;
-    left: -60px;
+    top: 80px;
+    left: -120px;
   }
   .flecha3{
-    top: 100px;
-    right: 300px;
+    bottom: 100px;
+    left: -90px;
   }
   .flecha4{
-    top: 160px;
-    right: 30px;
+    bottom: 210px;
+    right: 270px;
+  }
+  .flecha5{
+    bottom: 250px;
+    right: 50px;
   }
   .p-flecha{
-    color: white;
-    width: 80px;
+    color:#064068;
+    font-weight: 500;
+    font-size: 20px;
+    width: 100px;
   }
   .link-flecha{
     cursor:pointer;
     text-decoration:none;
-
+  }
+  .p-flecha:hover{
+    text-decoration: underline;
+    text-decoration-color: #064068;
   }
   .rueda{
-    width: 80px;
+    margin-top: 22px;
+    margin-left: 20px;
+    margin-right: 8px;
+    width: 50px;
   }
   @media (max-width: 500px){
     body{
@@ -166,7 +183,6 @@
     .ruta{
       margin-top: 90px;
       height: 70%;
-      
       object-position:top;
     }
     .header{
