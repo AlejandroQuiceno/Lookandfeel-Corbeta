@@ -183,8 +183,11 @@
       left: 260px;
     }
     .flecha5{
-      right: 50px;
-      bottom: 240px;
+      right: 40px;
+      bottom: 250px;
+    }
+    .p-flecha{
+      font-size: 22px;
     }
   }
 
