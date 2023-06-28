@@ -24,9 +24,14 @@
     position: relative;
   }
   .title{
-    position: absolute;
-    top: 0%;
-    left: -130%;
+    font-family: open sans;
+    width: 300px;
+    font-weight: 700;
+    color: #064068;
+    font-size: 35px;
+  }
+  .title2{
+    display: none;
     font-family: open sans;
     width: 300px;
     font-weight: 700;
@@ -82,26 +87,32 @@
     align-items:top;
     justify-content: center;
     position: absolute;
+
   }
   .flecha1{
     top: -135px;
     left: 240px;
+    animation: fadeAndMove 0.5s linear forwards;
   }
   .flecha2{
     top: 80px;
     left: -120px;
+    animation: fadeAndMove 0.7s linear forwards;
   }
   .flecha3{
     bottom: 100px;
     left: -90px;
+    animation: fadeAndMove 0.9s linear forwards;
   }
   .flecha4{
     bottom: 210px;
     right: 270px;
+    animation: fadeAndMove 1.1s linear forwards;
   }
   .flecha5{
     bottom: 250px;
     right: 50px;
+    animation: fadeAndMove 1.3s linear forwards;
   }
   .p-flecha{
     color:#064068;
@@ -123,12 +134,27 @@
     margin-right: 8px;
     width: 50px;
   }
+  /* animation*/
+  @keyframes fadeAndMove {
+    0% {
+      opacity: 0; /* Starting opacity */
+      transform: translateY(-100px); /* Starting position */
+    }
+    50% {
+      opacity: 1; /* Midway opacity */
+      transform: translateY(-50px); /* Midway position */
+    }
+    100% {
+      opacity: 1; /* Final opacity */
+      transform: translateY(0px); /* Final position */
+    }
+  }
+  
   @media (max-width: 500px){
     body{
       zoom: 55%;
     }
     .header-container{
-      height: 700px;
     }
     .right-header{
       flex-direction: column;
@@ -142,22 +168,38 @@
     .right-header p{
       font-size: 30px;
     }
+    .header{
+      height: 100%;
+    }
     .header-container{
-      padding-top: 100px;
       flex-direction: column;
       align-items: top;
       justify-content: left;  
       margin-left: 150px;
       margin-top: -70px;
-    }
-    .header{
-      padding-top: 60px;
+      height: 100%;
+    } 
+    .title2{
+      display: inline-block;
+      width: 100%;
+      margin-left: 30px;
+      font-size: 40px;
+      margin-bottom: 150px;
     }
     .left-header{
       display: none;
-      width: 0px;
+    }
+    .title{
+      font-size: 20px;
+      color: #064068;
+      position: absolute;
+      top: -200px;
+      
+      width: 2000px;
+
     }
     .flechas-container{
+      margin-top: 1000px;
       display: flex;
       align-items: top;
       justify-content: left;
@@ -178,15 +220,15 @@
       left: 120px;
     }
     .flecha3{
-      bottom: 150px;
+      bottom: 340px;
       right: 430px;
     }
     .flecha4{
-      bottom: 330px;
-      left: 260px;
+      bottom: 450px;
+      left: 320px;
     }
     .flecha5{
-      right: 40px;
+      right: -50px;
       bottom: 250px;
     }
     .p-flecha{
@@ -196,8 +238,7 @@
 
   @media  (min-width: 501px) and (max-width: 1024px) {
     .left-header{
-      display: none;
-      width: 0px;
+      width: 100px;
     }
     .flechas-container{
       display: flex;
@@ -207,6 +248,9 @@
       height: 800px;
       min-width: 0px;
       margin: 0px;
+    }
+    .title{
+      font-size: 30px;
     }
     .ruta{
       margin-top: 90px;
