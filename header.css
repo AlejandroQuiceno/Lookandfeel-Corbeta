@@ -133,7 +133,11 @@
       width: 250px;
     }
     .right-header button{
-      margin-top: 40px;
+      width: 250px;
+      margin-top: 100px;
+    }
+    .right-header p{
+      font-size: 30px;
     }
     .header-container{
       padding-top: 100px;
@@ -142,8 +146,6 @@
       justify-content: left;  
       margin-left: 150px;
       margin-top: -70px;
-    }
-    .right-header{
     }
     .header{
       padding-top: 60px;
@@ -181,8 +183,8 @@
       left: 260px;
     }
     .flecha5{
-      right: -120px;
-      bottom: 280px;
+      right: 50px;
+      bottom: 240px;
     }
   }
 
