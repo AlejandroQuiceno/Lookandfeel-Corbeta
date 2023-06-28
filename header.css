@@ -127,6 +127,9 @@
     body{
       zoom: 55%;
     }
+    .header-container{
+      height: 700px;
+    }
     .right-header{
       flex-direction: column;
       height: 100px;
