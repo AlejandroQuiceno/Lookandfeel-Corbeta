@@ -125,12 +125,15 @@
   }
   @media (max-width: 500px){
     body{
-      zoom: 60%;
+      zoom: 55%;
     }
     .right-header{
-      flex-direction: row;
+      flex-direction: column;
       height: 100px;
-      width: 550px;
+      width: 250px;
+    }
+    .right-header button{
+      margin-top: 40px;
     }
     .header-container{
       padding-top: 100px;
