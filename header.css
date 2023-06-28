@@ -127,19 +127,20 @@
     body{
       zoom: 60%;
     }
+    .right-header{
+      flex-direction: row;
+      height: 100px;
+      width: 550px;
+    }
     .header-container{
       padding-top: 100px;
+      flex-direction: column;
       align-items: top;
       justify-content: left;  
-      margin-left: 20px;
-      align-items: top;
-      justify-content: left;
-      margin-left: 80px;
+      margin-left: 150px;
       margin-top: -70px;
     }
     .right-header{
-      display: none;
-      width: 0px;
     }
     .header{
       padding-top: 60px;
@@ -163,6 +164,22 @@
       min-width: 0px;
       margin-top: 30px;
       object-position:top;
+    }
+    .flecha1{
+      top: -100px;
+      left: 120px;
+    }
+    .flecha3{
+      bottom: 150px;
+      right: 430px;
+    }
+    .flecha4{
+      bottom: 330px;
+      left: 260px;
+    }
+    .flecha5{
+      right: -120px;
+      bottom: 280px;
     }
   }
 
@@ -197,6 +214,26 @@
     .right-header{
       margin-left: 160px;
       margin-top: 20px;
+    }
+    .flecha1{
+      top: 0px;
+      right:230px;
+    }
+    .flecha2{
+      left: -30px;
+      top: 110px;
+    }
+    .flecha3{
+      left: -70px;
+      bottom: 250px;
+    }
+    .flecha4{
+      right: -200px;
+      bottom: 420px;
+    }
+    .flecha5{
+      bottom:330px;
+      right: -25px;
     }
   }
 
