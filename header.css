@@ -155,13 +155,13 @@
       position: absolute;
       top: 0px;
       bottom: 0px;
-      right: 0px;
+      right: 340px;
       left: 0px;
       border-style: solid;
       border-color: red;
     }
     body{
-      zoom: 55%;
+      zoom: 50%;
       position: relative;
     }
     .header-container{
