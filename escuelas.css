@@ -51,7 +51,13 @@ h2{
     object-fit:contain;
 }
 @media (max-width: 500px){
-    .body{
-        zoom: 75%;
+    .section{
+        padding: 5px;
+        width: 120px;
+        height: 80px;
     }
-}
+    .imagen-escuela{
+        height: 70px;
+        width: 110px;
+    }
+}   
