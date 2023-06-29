@@ -52,12 +52,12 @@ h2{
 }
 @media (max-width: 500px){
     .section{
-        padding: 5px;
-        width: 120px;
-        height: 80px;
+        padding: 0px;
+        width: 140px;
+        height: 100px;
     }
     .imagen-escuela{
-        height: 70px;
-        width: 110px;
+        height: 90px;
+        width: 130px;
     }
 }   
