@@ -151,19 +151,34 @@
   }
   
   @media (max-width: 500px){
+    .red-box{
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+      left: 0px;
+      border-style: solid;
+      border-color: red;
+    }
     body{
       zoom: 55%;
+      position: relative;
     }
     .header-container{
     }
     .right-header{
-      flex-direction: column;
+      flex-direction: row;
+      position: relative;
       height: 100px;
-      width: 250px;
+      width: 200px;
+    }
+    .logo{
+      position: absolute;
+      left: -110px;
     }
     .right-header button{
       width: 250px;
-      margin-top: 100px;
+      margin-left: 200px;
     }
     .right-header p{
       font-size: 30px;
@@ -183,8 +198,9 @@
       display: inline-block;
       width: 100%;
       margin-left: 30px;
-      font-size: 40px;
-      margin-bottom: 150px;
+      font-weight: 700;
+      font-size: 50px;
+      margin-bottom: 220px;
     }
     .left-header{
       display: none;
