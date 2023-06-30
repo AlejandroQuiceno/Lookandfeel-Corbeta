@@ -9,6 +9,11 @@ h2{
     width: 200px;
     margin-left: 20px;
 }
+.heading{
+    color: #4D4D4D;
+    font-size: 35px;
+    line-height: 35px;
+}
 .container{
     max-width: 1200px;
     display: flex;
@@ -19,6 +24,7 @@ h2{
     max-width: 90%;
     border-style: solid;
     border-color: rgba(46, 46, 46, 0.3);
+    box-shadow: 0px 0px 5px rgba(39, 39, 39, 0.356);
     border-radius: 8px;
     border-width: 1px;
     padding: 10px 15px ;
@@ -27,6 +33,7 @@ h2{
     justify-content: center;
     flex-wrap:wrap;
     margin-left: 20px;
+    padding-top: 20px;
 }
 .section{
     width: 180px;
@@ -50,6 +57,66 @@ h2{
     width: 180px;
     object-fit:contain;
 }
+.line{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    width: 90%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(216, 216, 216);
+} 
+/*Carrusel Styles*/
+.carrusel{
+    margin-top: 30px;
+    padding: 10px 15px ;
+    display: flex;
+    max-width: 1100px;
+}
+.carrusel-text{
+    width: 100%;
+}
+.carrusel-text h2{
+    color: #4D4D4D;
+    font-size: 35px;
+    line-height: 35px;
+}
+.carrusel-container{
+    width: 100%;
+    position: relative;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+.carrusel-link{
+}
+.carrusel-imgs{
+    width: 100%;
+    height: 170px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Create four equal-width columns */
+    gap: 10px; /* Adjust the gap between grid items as desired */
+    overflow: hidden;
+}
+.carrusel-img{
+    width: 180px;
+    height: 180px;
+    object-fit:fill;
+    cursor: pointer;
+}
+.arrow-left,.arrow-right{
+    width: 50px;
+    object-fit: cover;
+    cursor: pointer;
+    position: absolute;
+}
+.arrow-left{
+    left: -30px;
+    top:68px;
+}
+.arrow-right{
+    right: -30px;
+    top:68px;
+}
 @media (max-width: 500px){
     .section{
         padding: 0px;
@@ -60,4 +127,18 @@ h2{
         height: 90px;
         width: 130px;
     }
+    .section:hover{
+        width: 145px;
+    }
+    .carrusel-imgs{
+        grid-auto-columns: calc((100% / 1));
+     }
 }   
+@media  (min-width: 501px) and (max-width: 1024px) {
+    .carrusel-imgs{
+        grid-auto-columns: calc((100% / 3));
+     }
+     .carrusel{
+
+     }
+}
