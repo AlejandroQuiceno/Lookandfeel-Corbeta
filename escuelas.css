@@ -165,6 +165,10 @@ h2{
     .prev-button img,.next-button img{
         width: 50px;
     }
+    .prev-button img:active,
+    .next-button img:active{
+      width: 55px;
+    }
   }
 @media (max-width: 700px){
     .carousel-container {
