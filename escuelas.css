@@ -160,9 +160,9 @@ h2{
 
     }
     .carousel-container {
-        width: 30%;
+        width: 25%;
     }
-    .prev-button img,.next-buttonimg{
+    .prev-button img,.next-button img{
         width: 50px;
     }
   }
