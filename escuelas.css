@@ -100,12 +100,20 @@ h2{
   }
   .carousel-item img{
     height: 190px;
-    cursor: pointer;
+    cursor: pointer;    
+    transition: opacity 0.15s;
+  }
+  .carousel-item img:hover{
+    opacity: 0.85;
+    
+  }
+  .carousel-item img:active{
+    opacity: 0.3;
+    
   }
   .carousel-item {
     flex: 0 0 150px;
     height: 80%;
-    border: 1px solid #ccc;
     margin-right: 10px;
     display: flex;
     justify-content: center;
@@ -123,7 +131,10 @@ h2{
     font-size: 24px;
     cursor: pointer;
   }
-  
+  .prev-button img:active,
+  .next-button img:active{
+    width: 77px;
+  }
   .prev-button {
     left: 0px;
   }
@@ -133,6 +144,9 @@ h2{
   }
   
   @media screen and (max-width: 500px) {
+    .carrusel{
+        flex-direction: row;
+    }
     .carousel-container {
         width: 30%;
       }
