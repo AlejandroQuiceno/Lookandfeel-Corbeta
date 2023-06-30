@@ -1,34 +1,27 @@
-const carouselItems = document.querySelectorAll('.carousel-item');
-const totalItems = carouselItems.length;
-const visibleItems = 4;
-const itemWidth = carouselItems[0].offsetWidth;
+const carouselContainer = document.querySelector('.carousel-container');
+const carouselItems = carouselContainer.querySelector('.carousel-items');
+const prevButton = carouselContainer.querySelector('.prev-button');
+const nextButton = carouselContainer.querySelector('.next-button');
+
+const itemWidth = carouselItems.firstElementChild.offsetWidth;
+const containerWidth = carouselContainer.offsetWidth;
+const itemCount = carouselItems.childElementCount;
 
 let currentIndex = 0;
 
-// Function to update the carousel position
 function updateCarousel() {
-  carouselItems.forEach((item, index) => {
-    const position = index - currentIndex;
-    const transformValue = `translateX(${position * itemWidth}px)`;
-    item.style.transform = transformValue;
-  });
+  carouselItems.style.transform = `translateX(-${currentIndex * itemWidth*1.33}px)`;
 }
 
-// Function to handle the next button click
 function nextSlide() {
-  currentIndex = (currentIndex + 1) % totalItems;
+  currentIndex = (currentIndex + 1) % itemCount;
   updateCarousel();
 }
 
-// Function to handle the previous button click
 function prevSlide() {
-  currentIndex = (currentIndex - 1 + totalItems) % totalItems;
+  currentIndex = (currentIndex - 1 + itemCount) % itemCount;
   updateCarousel();
 }
 
-// Add click event listeners to the arrow buttons
-const arrowLeft = document.querySelector('.arrow-left');
-const arrowRight = document.querySelector('.arrow-right');
-
-arrowLeft.addEventListener('click', prevSlide);
-arrowRight.addEventListener('click', nextSlide);
+nextButton.addEventListener('click', nextSlide);
+prevButton.addEventListener('click', prevSlide);

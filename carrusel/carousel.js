@@ -3,7 +3,7 @@ const carouselItems = carouselContainer.querySelector('.carousel-items');
 const prevButton = carouselContainer.querySelector('.prev-button');
 const nextButton = carouselContainer.querySelector('.next-button');
 
-const itemWidth = carouselItems.firstElementChild.offsetWidth;
+const itemWidth = carouselItems.firstElementChild.offsetWidth + parseInt(getComputedStyle(carouselItems.firstElementChild).marginRight);
 const containerWidth = carouselContainer.offsetWidth;
 const itemCount = carouselItems.childElementCount;
 
