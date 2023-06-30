@@ -161,12 +161,9 @@ h2{
     }
     .carousel-container {
         width: 30%;
-      }
-    .carousel-item img{
-        height: 120px;
     }
-    .prev-button,.next-button{
-        width: 40px;
+    .prev-button img,.next-buttonimg{
+        width: 50px;
     }
   }
 @media (max-width: 700px){
