@@ -10,7 +10,7 @@ const itemCount = carouselItems.childElementCount;
 let currentIndex = 0;
 
 function updateCarousel() {
-  carouselItems.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+  carouselItems.style.transform = `translateX(-${currentIndex * itemWidth*1.33}px)`;
 }
 
 function nextSlide() {
