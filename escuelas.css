@@ -158,10 +158,9 @@ h2{
     .carrusel{
         flex-direction: row;
         padding-left: 10px;
-
     }
     .carousel-container {
-        width: 23%;
+        width: 50%;
     }
     .prev-button img,.next-button img{
         width: 50px;
@@ -170,8 +169,20 @@ h2{
     .next-button img:active{
       width: 55px;
     }
+    .section{
+      padding: 0px;
+      width: 140px;
+      height: 100px;
+    }
+    .imagen-escuela{
+        height: 90px;
+        width: 130px;
+    }
+    .section:hover{
+        width: 145px;
+    }
   }
-@media (max-width: 700px){
+@media (min-width: 501px) and (max-width: 700px){
     .carousel-container {
         width: 60%;
       }
