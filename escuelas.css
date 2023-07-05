@@ -182,7 +182,7 @@ h2{
         width: 145px;
     }
   }
-@media (min-width: 501px) and (max-width: 800px){
+@media (min-width: 501px) and (max-width: 900px){
     .carousel-container {
         width: 60%;
       }
@@ -201,5 +201,8 @@ h2{
     .carousel-container {
       width: 70%;
       margin-left: 20px;
-  }
+   }
+    .next-button {
+      right: 25px;
+    }
 }   
