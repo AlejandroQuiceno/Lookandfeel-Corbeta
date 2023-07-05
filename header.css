@@ -174,14 +174,14 @@
       left: -110px;
     }
     .right-header button{
-      width: 200px;
+      width: 190px;
       position: absolute;
       top: -930px;
-      right: -400px;
+      right: -290px;
       margin-left: 200px;
     }
     .right-header button p{ 
-      font-size: 23px;
+      font-size: 21px;
 
     }
     .right-header p{
@@ -203,7 +203,7 @@
       width: 100%;
       margin-left: 30px;
       font-weight: 700;
-      font-size: 50px;
+      font-size: 43px;
       margin-bottom: 120px;
     }
     .left-header{
@@ -234,9 +234,9 @@
       display: none;
     }
     .ruta2{
-      margin-left: 50px;
-      height: 700px;
-      width: 550px;
+      margin-left: 0px;
+      height: 680px;
+      width: 500px;
       display: block;
     }
     .flecha1,.flecha2,.flecha3,.flecha4,.flecha5{
@@ -250,24 +250,24 @@
       width: 150px;
     }
     .flecha1{
-      top: -95px;
-      left: 90px;
+      top: -80px;
+      left: -10px;
     }
     .flecha2{
-      left: 300px;
+      left: 220px;
       top: 40px;
     }
     .flecha3{
       bottom: 320px;
-      left: -80px;
+      left: -130px;
     }
     .flecha4{
-      bottom: 370px;
-      left: 350px;
+      bottom: 380px;
+      left: 250px;
     }
     .flecha5{
-      right: -160px;
-      bottom: 150px;
+      right: -60px;
+      bottom: 180px;
     }
     .p-flecha{
       font-size: 25px;
