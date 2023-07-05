@@ -120,7 +120,7 @@
   }
   .p-flecha{
     color:#064068;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.747);
     padding: 5px 5px;
     border-radius: 8px;
     font-weight: 500;
@@ -314,6 +314,18 @@
     .right-header{
       margin-left: 160px;
       margin-top: 20px;
+      position: relative;
+    }
+    .logo{
+      position: absolute;
+      right: -8px;
+      width: 140px;
+      top: -20px;
+    }
+    .certificados{
+      position: absolute;
+      right: 535px;
+      bottom: 10px;
     }
     .flecha1{
       top: 10px;
