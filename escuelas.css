@@ -182,7 +182,7 @@ h2{
         width: 145px;
     }
   }
-@media (min-width: 501px) and (max-width: 700px){
+@media (min-width: 501px) and (max-width: 800px){
     .carousel-container {
         width: 60%;
       }
@@ -203,6 +203,3 @@ h2{
       margin-left: 20px;
   }
 }   
-@media  (min-width: 501px) and (max-width: 1024px) {
-
-}
