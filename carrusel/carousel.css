@@ -5,7 +5,13 @@
   height: 200px;
   margin: 0 auto;
 }
-
+.hidden{
+  opacity: 0;
+  transition: all 1s;
+}
+.show{
+  opacity: 0;
+}
 .carousel-items {
   display: flex;
   width: max-content;
