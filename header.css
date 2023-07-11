@@ -59,8 +59,8 @@
     width: 100%;
   }
   .flechas-container{
-    margin-top: 70px;
-    width: 800px;
+    margin-top: 30px;
+    width: 950px;
     position: relative;
   }
   .ruta{
@@ -82,12 +82,12 @@
   }
   .flecha1{
     top: -35px;
-    left: 32px;
+    left: 70px;
     animation: fadeAndMove 0.5s linear forwards;
   }
   .flecha2{
-    top: 50px;
-    left: 240px;
+    top: 55px;
+    left: 260px;
     animation: fadeAndMove 0.7s linear forwards;
   }
   .flecha3{
@@ -96,13 +96,13 @@
     animation: fadeAndMove 0.9s linear forwards;
   }
   .flecha4{
-    bottom: 245px;
-    right: 150px;
+    bottom: 255px;
+    right: 200px;
     animation: fadeAndMove 1.1s linear forwards;
   }
   .flecha5{
-    bottom: 80px;
-    right: 195px;
+    bottom: 60px;
+    right: 265px;
     animation: fadeAndMove 1.3s linear forwards;
   }
   .p-flecha{
