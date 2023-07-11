@@ -9,7 +9,6 @@
     justify-content: center;
     padding-top: 20px;
   }
-
   .header-container{
     width: 1200px;
     max-width: 2000px;
@@ -19,27 +18,13 @@
     justify-content: center;
   }
   .left-header{
+    height: 0px;
     width: 100px;
     position: relative;
   }
-  .title{
-    font-family: open sans;
-    width: 300px;
-    font-weight: 700;
-    color: #064068;
-    font-size: 35px;
-  }
-  .title2{
-    display: none;
-    font-family: open sans;
-    width: 300px;
-    font-weight: 700;
-    color: #064068;
-    font-size: 35px;
-  }
   .right-header{
     display: flex;
-    flex-direction: column;
+    align-items: flex-end;
     justify-content: space-between;
     height: 100%;
   }
@@ -51,6 +36,7 @@
     align-items: center;
     padding: 0px 20px;
     cursor: pointer;
+    margin-bottom: 50px;
   }
   .certificados:hover{
     box-shadow: 0px 0px 10px rgba(1, 1, 1, 0.5);
@@ -67,12 +53,13 @@
     font-size: 18px;
   }
   .logo{
+    display: none;
     max-width: 170px;
     margin-top: 20px;
     width: 100%;
   }
   .flechas-container{
-    margin-top: 130px;
+    margin-top: 70px;
     width: 800px;
     position: relative;
   }
@@ -94,7 +81,7 @@
 
   }
   .flecha1{
-    top: -30px;
+    top: -35px;
     left: 32px;
     animation: fadeAndMove 0.5s linear forwards;
   }
@@ -104,18 +91,18 @@
     animation: fadeAndMove 0.7s linear forwards;
   }
   .flecha3{
-    bottom: 47px;
+    bottom: 105px;
     left: 7px;
     animation: fadeAndMove 0.9s linear forwards;
   }
   .flecha4{
-    bottom: 170px;
-    right: 240px;
+    bottom: 245px;
+    right: 150px;
     animation: fadeAndMove 1.1s linear forwards;
   }
   .flecha5{
-    bottom: 17px;
-    right: 205px;
+    bottom: 80px;
+    right: 195px;
     animation: fadeAndMove 1.3s linear forwards;
   }
   .p-flecha{
@@ -174,14 +161,14 @@
       left: -110px;
     }
     .right-header button{
-      width: 190px;
+      width: 230px;
       position: absolute;
-      top: -930px;
-      right: -290px;
+      top: -220px;
+      right: 60px;
       margin-left: 200px;
     }
     .right-header button p{ 
-      font-size: 21px;
+      font-size: 28px;
 
     }
     .right-header p{
@@ -198,25 +185,8 @@
       margin-top: -70px;
       height: 100%;
     } 
-    .title2{
-      display: inline-block;
-      width: 100%;
-      margin-left: 30px;
-      font-weight: 700;
-      font-size: 43px;
-      margin-bottom: 120px;
-    }
     .left-header{
       display: none;
-    }
-    .title{
-      font-size: 20px;
-      color: #064068;
-      position: absolute;
-      top: -200px;
-      
-      width: 2000px;
-
     }
     .flechas-container{
       display: flex;
@@ -226,6 +196,7 @@
       height: 800px;
       min-width: 0px;
       margin: 0px;
+      margin-top: 120px;
     }
     .ruta{
       height: 500px;
@@ -287,9 +258,6 @@
       min-width: 0px;
       margin: 0px;
     }
-    .title{
-      font-size: 30px;
-    }
     .ruta{
       display: none;
       margin-top: 90px;
@@ -324,8 +292,8 @@
     }
     .certificados{
       position: absolute;
-      right: 535px;
-      bottom: 10px;
+      right: -150px;
+      bottom: -50px;
     }
     .flecha1{
       top: 10px;
