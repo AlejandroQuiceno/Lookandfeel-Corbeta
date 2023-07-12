@@ -1,5 +1,5 @@
   h2{
-      font-family: open sans;
+      font-family: open sans , 'Roboto';
       font-weight: bold;
       font-size: 25px;
       color: #064068;
@@ -8,7 +8,7 @@
   text-decoration: none;
   }
   p{
-    font-family: open sans;
+    font-family: open sans, 'Roboto';
   }
   body{
     padding: 0px;
