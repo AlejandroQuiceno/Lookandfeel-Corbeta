@@ -169,7 +169,7 @@ h2{
   
   @media screen and (max-width: 500px) {
     .body{
-        zoom: 80%;
+        zoom: 75%;
     }
     .carrusel-text{
         font-size: 13;
