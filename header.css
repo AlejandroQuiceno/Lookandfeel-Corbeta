@@ -141,14 +141,9 @@
       transform: translateY(0px); /* Final position */
     }
   }
-  @media screen and (max-width: 400px) {
-    body{
-      zoom: 40%;
-    }
-  }
   @media (max-width: 500px){
     body{
-      zoom: 50%;
+      zoom: 47%;
       position: relative;
     }
     .right-header{
