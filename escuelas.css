@@ -166,11 +166,13 @@ h2{
   .next-button {
     right: 0px;
   }
+  @media screen and (max-width: 400px) {
+    body{
+      zoom: 90%;
+    }
+  }
   
   @media screen and (max-width: 500px) {
-    .body{
-        zoom: 65%;
-    }
     .carrusel-text{
         font-size: 13;
     }
