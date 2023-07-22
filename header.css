@@ -28,35 +28,12 @@
     justify-content: space-between;
     height: 100%;
   }
-  .certificados{
-    background-color: #064068;
-    border-radius: 15px;
-    border-style: none;
-    display: flex;
-    align-items: center;
-    padding: 0px 20px;
-    cursor: pointer;
-    margin-bottom: 50px;
-  }
-  .certificados:hover{
-    box-shadow: 0px 0px 10px rgba(1, 1, 1, 0.5);
-  }
-  .certificados:active{
-    opacity: 0.5;
-  }
-  .certificados img{
-    margin-right: 10px;
-    width: 32px;
-  }
-  .certificados p{
-    color: white;
-    font-size: 18px;
-  }
   .logo{
-    display: none;
     max-width: 170px;
     margin-top: 20px;
-    width: 100%;
+    width: 700px;
+    position: absolute;
+    left: -130px;
   }
   .flechas-container{
     margin-top: 30px;
@@ -64,8 +41,10 @@
     position: relative;
   }
   .ruta{
-    margin-top: 15px;
-    width: 85%;
+    width: 140%;
+    position: absolute;
+    left: -200px;
+    top: -150px;
   }
   .ruta2{
     display: none;
@@ -80,37 +59,36 @@
   }
   .flecha1{
     top: -50px;
-    left: 60px;
+    left: 30px;
     animation: fadeAndMove 0.5s linear forwards;
   }
   .flecha2{
-    top: 55px;
-    left: 250px;
+    top: -60px;
+    left: 470px;
     animation: fadeAndMove 0.7s linear forwards;
   }
   .flecha3{
-    bottom: 140px;
-    left: 7px;
+    bottom: 185px;
+    left: -45px;
     animation: fadeAndMove 0.9s linear forwards;
   }
   .flecha4{
-    bottom: 270px;
-    right: 270px;
+    bottom: 300px;
+    right: 60px;
     animation: fadeAndMove 1.1s linear forwards;
   }
   .flecha5{
     bottom: 115px;
-    right: 335px;
+    right:180px;
     animation: fadeAndMove 1.3s linear forwards;
   }
   .p-flecha{
     color:#064068;
-    background-color: rgba(255, 255, 255, 0.747);
     padding: 5px 5px;
     border-radius: 8px;
     font-weight: 500;
-    font-size: 17px;
-    width: 100px;
+    font-size: 22px;
+    width: 130px;
   }
   .link-flecha{
     cursor:pointer;
@@ -124,7 +102,16 @@
     margin-top: 22px;
     margin-left: 5px;
     margin-right: 8px;
-    width: 35px;
+    width: 45px;
+  }
+  .right-header{
+    position: relative;
+  }
+  .right-header img{
+    position: absolute;
+    width: 120px;
+    right: -5px;
+    bottom: 30px;
   }
   /* animation*/
   @keyframes fadeAndMove {
