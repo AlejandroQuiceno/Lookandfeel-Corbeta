@@ -30,9 +30,8 @@
     height: 100%;
   }
   .logo{
-    max-width: 170px;
     margin-top: 20px;
-    width: 700px;
+    width: 170px;
     position: absolute;
     left: -130px;
   }
@@ -152,9 +151,15 @@
       height: 100px;
       width: 200px;
     }
+    .right-header img{
+      left: 450px;
+      width: 150px;
+      bottom: -50px;
+    }
     .logo{
       position: absolute;
       left: -110px;
+      width: 300px;
       top: 40px;
     }
     .right-header button{
@@ -198,9 +203,10 @@
       position: absolute;
       top: -220px;
       left: -150px;
-      height: 1000px;
+      height: 1150px;
       width: 750px;
       display: block;
+      margin-top: 120px;
     }
     .flecha1,.flecha2,.flecha3,.flecha4,.flecha5{
       width: 300px;
@@ -214,27 +220,27 @@
       font-size: 19px;
     }
     .flecha1{
-      top: 50px;
+      top: 130px;
       left: -160px;
     }
     .flecha2{
       left: 130px;
-      top: -60px;
+      top: 80px;
     }
     .flecha2 .p-flecha{
       width: 180px;
     }
     .flecha3{
-      bottom: 350px;
-      left: -130px;
+      bottom: 160px;
+      left: -170px;
     }
     .flecha4{
-      bottom: 470px;
-      left: 280px;
+      bottom: 330px;
+      left: 295px;
     }
     .flecha5{
-      right: -60px;
-      bottom: 180px;
+      right: -40px;
+      bottom: 40px;
     }
     .flecha5 .p-flecha{
       width: 300px;
@@ -242,13 +248,8 @@
     .p-flecha{
       font-size: 28px;
     }
-    .right-header img{
-      left: 350px;
-      width: 150px;
-      bottom: 170px;
-    }
     .box-shadow{
-      top: 830px;
+      top: 1070px;
       height: 30px;
     }
   }
