@@ -296,7 +296,7 @@
     }
     .right-header img{
       right: 100px;
-      bottom: 5px;
+      bottom: 30px;
       width: 100px;
     }
     .logo{
@@ -333,6 +333,7 @@
     }
 
     .box-shadow{
-      top: 540px;
+      top: 490px;
+      height: 30px;
     }
   }
