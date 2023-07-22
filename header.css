@@ -109,8 +109,8 @@
   }
   .right-header img{
     position: absolute;
-    width: 120px;
-    right: -5px;
+    width: 125px;
+    right: -150px;
     bottom: 30px;
   }
   /* animation*/
